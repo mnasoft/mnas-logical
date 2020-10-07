@@ -1,0 +1,12 @@
+@begin(section) @title(Обзор)
+
+This is where you explain what your project does.
+
+@end(section)
+
+@begin(section) @title(API)
+ @cl:with-package[name="mnas-logical"](
+  @cl:doc(function and-func )
+  @cl:doc(function or-func)
+ )
+@end(section)
