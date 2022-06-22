@@ -38,7 +38,7 @@
   (mnas-package:make-mainfest-lisp
    '(:mnas-logical :mnas-logical/docs)
    "Mnas-Logical"
-   '("Nick Matvyeyev")
+   '("Mykola Matvyeyev")
    (mnas-package:find-sources "mnas-logical")
    :output-format of)
   (codex:document :mnas-logical)
