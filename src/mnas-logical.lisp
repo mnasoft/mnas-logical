@@ -1,11 +1,11 @@
 ;;;; mnas-logical.lisp
 
-(defpackage #:mnas-logical
+(defpackage :mnas-logical
   (:use #:cl)
   (:export and-func
            or-func))
 
-(in-package #:mnas-logical)
+(in-package :mnas-logical)
 
 (defun and-func (lst)
   "@b(Описание:) and-func аналог макроса and, выполняемого поэлементно

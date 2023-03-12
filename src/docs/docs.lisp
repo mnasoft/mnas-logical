@@ -1,4 +1,4 @@
-(defpackage #:mnas-logical/docs
+(defpackage :mnas-logical/docs
   (:use #:cl ) 
   (:nicknames "MLOG/DOCS")
   (:export make-all)
